@@ -9,7 +9,7 @@ Built to run entirely offline on hardcoded, hand-verified real-world data, with 
 optional on-demand scraper for fresher inputs. No paid APIs, no API keys, no external
 services required.
 
-![Dashboard Screenshot](docs/screenshot_champion_odds.png)
+![Dashboard Screenshot](https://docs.google.com/document/d/1jZYMK3jwLwOTpRWYzQlK1TX_2CM9VdS849z5bK7yL4g/edit?usp=sharing)
 
 ## Features
 
