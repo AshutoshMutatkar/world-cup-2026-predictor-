@@ -1,4 +1,9 @@
 # FIFA World Cup 2026 Predictive Engine
+> **Status: Working prototype, actively evolving.** Core simulation engine and CLI
+> are fully functional and verified against real tournament data. The live-data
+> scraper and dashboard visuals are built but not yet production-hardened — see
+> [Known Limitations](#known-limitations) for the specific, honest list of what's
+> left. This is a portfolio project I'm iterating on, not a finished product.
 
 A zero-API, self-contained Monte Carlo simulator that predicts FIFA World Cup 2026
 outcomes — champion odds, medal odds, group standings, knockout bracket progression,
