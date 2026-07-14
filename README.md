@@ -109,7 +109,15 @@ This project treats data integrity as a first-class concern, not an afterthought
 - `world_cup_scraper.py` output (`live_updates.json`) is not yet wired into the
   simulation inputs — it's fetched and saved but not consumed by `main.py` /
   `world_cup_sim.py` yet.
+  
+## Roadmap
 
+- [ ] Validate `world_cup_scraper.py` against live HTML, fix selectors as needed
+- [ ] Wire scraper output into the simulation (currently fetched but unused)
+- [ ] Add unit tests for Elo updates and tiebreaker logic
+- [ ] Deploy dashboard publicly (Streamlit Community Cloud)
+- [ ] Implement head-to-head tiebreaker (currently placeholder)
+      
 ## Tech Stack
 
 Python 3.14, NumPy (Poisson sampling), Streamlit + Plotly (dashboard), no external
